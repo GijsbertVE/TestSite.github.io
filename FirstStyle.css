@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Mainfont';
+    src: url('HoltwoodOneSC-Regular.ttf');
+}
+
+body,
+html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Mainfont';
+    color: white;
+    background: url(header.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1{
+     padding: 7rem;
+        font-size: 4rem;
+        
+}
+h1:hover{
+font-size: 7rem;
+color:red
+}
+
+.btn-xl{
+    padding: 1rem;
+    background-color: chocolate;
+    border-radius: 33%;
+    font-weight: 100;
+}
+
+.btn-xl:hover{
+    background-color: green;
+}
+
+hr {
+    margin: 20px auto;
+    color: chocolate;
+    border: 3px solid #F05F44;
+    max-width: 65px;
+    opacity: 1;  
+}
